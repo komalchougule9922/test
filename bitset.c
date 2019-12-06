@@ -8,7 +8,7 @@ int bit_set(int x,int ps)
 int main()
 {
      int Data=0x00;
- int ps =0;
+      int ps =0;
 
     printf("Data = 0x%x\n\n",Data);
     printf("Enter the position to set a bit  = ");
