@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int bit_set()
+int bit_set(int data,int ps)
 {     
-    int x;
-    int ps;
-    return (x |(1<<ps));   //for set a perticular bit
+    
+   return (data |(1<<ps));   //for set a perticular bit
     // return (x &(~(1<<ps));   //for reset bit
 }
 
